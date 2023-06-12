@@ -1,0 +1,20 @@
+{
+  "name": "picos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "prisma": "^4.14.1",
+    "ts-node": "^10.9.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.14.1",
+    "fastify": "^4.17.0"
+  }
+}
